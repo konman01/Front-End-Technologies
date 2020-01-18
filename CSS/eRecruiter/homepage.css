@@ -7,7 +7,8 @@ body{
 }
 .main-header{
     width: 100%;
-    background: #74A6D8;
+    /*background: #74A6D8;*/
+    background: #fa923f;
     font-family: 'Slabo 27px', serif;
 }
 
@@ -38,7 +39,7 @@ body{
 
 .main-nav_left--item__link{
     text-decoration: none;
-    color: #6214A5;
+    color: #ffffff;
     padding: 0px 16px;
    
 }
