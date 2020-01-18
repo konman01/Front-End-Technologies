@@ -71,6 +71,65 @@ body{
     margin: 8px 0px;
 }
 
+.button{
+    color: white;
+    background: #0e4f1f;
+    font: inherit;
+    border: 1.5px #0e4f1f solid;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+.button:hover,
+.button:active{
+    color: #0e4f1f;
+    background: white;
+}
+
+.button:focus{
+    outline: none;
+}
+
+#key-features{
+    background-color: #ff1b68;
+    padding: 8px;
+}
+
+#key-features .section-title{
+    color: white;
+    margin: 32px;
+}
+.key-feature__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image{
+    background: #ffcede;
+    width: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    height: 128px;
+    margin: auto;
+}
+
+.key-feature__description{
+    color: white;
+    font-size: bold; 
+    font-size: 20px;
+}
+
+
 .main-header{
     width: 100%;
     background: #2ddf5c;
