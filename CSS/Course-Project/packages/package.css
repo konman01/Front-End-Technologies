@@ -1,11 +1,17 @@
-main{
-    margin-top: 32px;
+.background{
+    background: url("../plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
 }
+
 .package-section{
     border: 4px solid #0e4f1f;
     border-left: none;
     margin: 16px 8px;
     width: 80%;
+    position: relative;
 
 }
 
@@ -28,6 +34,18 @@ main{
     font-size: 20px;
 }
 
+.package__badge{
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
+
+}
 .packge-section__link--brief{
     color: #858585;
 
