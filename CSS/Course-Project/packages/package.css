@@ -1,99 +1,90 @@
-.background{
+main {
+    padding-top: 2rem;
+}
+
+.background {
     background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
 
-.package-section{
+.package {
+    width: 80%;
+    margin: 1rem 0;
     border: 4px solid #0e4f1f;
     border-left: none;
-    margin: 16px 8px;
-    width: 80%;
     position: relative;
-
 }
 
-.package-section:hover,
-.package-section:active{
+.package:hover,
+.package:active {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    border-color: #ff5454
+    border-color: #ff5454;
+    /* border-color: #ff5454 !important; */
 }
 
-.package-section__link{
+.package a {
     text-decoration: none;
-    font: inherit;
+    color: inherit;
     display: block;
-    padding: 32px;
+    padding: 2rem;
 }
 
-.packge-section__link--title{
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.package__badge{
-
+.package__badge {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    margin: 20px;
-    font-size: 12px;
+    top: 0;
+    right: 0;
+    margin: 1.2rem;
+    font-size: 0.8rem;
     color: white;
     background: #ff5454;
-    padding: 8px;
-
-}
-.packge-section__link--brief{
-    color: #858585;
-
+    padding: 0.5rem;
 }
 
-.packge-section__link--description{
-    color: #0e4f1f;
-    font-size: 20px;
+.package__subtitle {
+    color: #979797;
+}
+
+.package__info {
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    padding: 16px;
+    font-size: 1.2rem;
+    color: #0e4f1f;
     background: white;
-
 }
 
-.clear-fix{
+.clearfix {
     clear: both;
 }
 
-#plus{
-    background: rgba(213, 255 , 220 , 0.95);
+#plus {
+    background: rgba(213, 255, 220, 0.95);
 }
 
-#free{
-    background: rgba(234, 252 , 237 , 0.95);
+#free {
+    background: rgba(234, 252, 237, 0.95);
     float: right;
-    text-align: right;
-    border: 4px solid #0e4f1f;
     border-right: none;
+    border-left: 4px solid #0e4f1f;
+    text-align: right;
 }
 
 #free:hover,
-#free:active{
-    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    border-color: #ff5454
+#free:active {
+    border-left-color: #ff5454;
 }
 
-#premium{
-    background: rgba(14, 79 , 31 , 0.95);
+#premium {
+    background: rgba(14, 79, 31, 0.95);
 }
 
-
-
-#premium .packge-section__link--title{
+#premium .package__title {
     color: white;
 }
 
-#premium .packge-section__link--brief{
+#premium .package__subtitle {
     color: #bbb;
 }
-
