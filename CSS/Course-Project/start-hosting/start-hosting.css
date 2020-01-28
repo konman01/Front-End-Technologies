@@ -1,0 +1,16 @@
+main{
+    padding-top: 5rem;
+}
+.signup-title{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #ff5454;
+}
+
+.signup-form select,
+.signup-form label,
+.signup-form input{
+    display: block;
+    margin: 1rem;
+    width: 100%
+}
