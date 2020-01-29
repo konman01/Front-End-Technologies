@@ -8,7 +8,7 @@ body{
 .main-header{
     width: 100%;
     /*background: #74A6D8;*/
-    background: #fa923f;
+    background: 	#468bb9;/*#00b33c;/*#00b3b3;/*#fa923f;*/
     font-family: 'Slabo 27px', serif;
     position: fixed;
     top: 0;
@@ -55,17 +55,18 @@ body{
 
 .main-nav_right--item__link{
     text-decoration: none;
-    color:#E56D06;
+    color:#468bb9;
     background: white;
     padding: 8px 16px;
     border-radius: 8px;
+    font-weight: bold;
 }
 
 .footer-links{
     text-align: center;
     margin: 0rem 0rem;
     padding: 2rem 1rem;
-    background-color: #fa923f;
+    background-color: 	#468bb9;
 }
 .footer-link{
     display: inline-block;

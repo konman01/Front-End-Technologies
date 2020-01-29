@@ -24,7 +24,7 @@
     margin: 1rem 1rem;
     width: 30%;
     vertical-align: middle;
-    background-color: #fa923f;
+    background-color:#f2f2f2;/*#b3ecff;/* #00cc66;/*#009999;/*#66b3ff;/*#e69900;/*#bfff00;/*#fa923f;*/
     border-radius: 1.5rem;
 }
 
@@ -36,15 +36,16 @@
     margin: 1rem;
     color:  #2D64B6;
     font-weight: bold;
+    
 }
 
 .role--price{
-    color: white;
     font-weight: bold;
+    color:  black;
 }
 
 .role--sub{
-    color: white;
+    color:  black;
     font-weight: bold;
 }
 
@@ -56,13 +57,13 @@
 
 .role__feature{
     list-style: none;
-    color: white;
+    color:  black;
     padding: 0.2rem;
 }
 
 .button{
     padding: 0.8rem;
-    background-color: #2D64B6;
+    background-color: #009999;
     color: white;
     border-radius: 0.5rem;
     font-weight: bold;
