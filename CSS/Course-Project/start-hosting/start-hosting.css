@@ -7,10 +7,35 @@ main{
     color: #ff5454;
 }
 
+.signup-form{
+    padding: 1rem;
+    font-weight: bold;
+}
+
+@media (min-width: 40rem){
+    .signup-form{
+        width: 25rem;
+        margin: auto;
+    }
+
+}
+
 .signup-form select,
 .signup-form label,
 .signup-form input{
     display: block;
     margin: 1rem;
     width: 100%
+}
+
+
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label{
+    display: inline-block;
+    width: auto;
+}
+
+.signup-form button[type="submit"]{
+    display: block;
+    margin-top: 1rem;;
 }
