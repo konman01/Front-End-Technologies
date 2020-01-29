@@ -35,6 +35,38 @@ main{
     width: auto;
 }
 
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select{
+
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    font: inherit;
+
+}
+
+.signup-form input:not([type="checkbox"]):focus,
+.signup-title select:focus{
+    outline: none;
+    background-color: #d8f3df;
+    border-color: #2ddf5c;
+}
+
+.signup-form input[type="checkbox"]{
+    border: 1px solid;
+    background-color: white;
+    width: 1rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.signup-form input[type="checkbox"]:checked{
+    background: #2ddf5c;
+    border: #0e4f1f;
+}
+
 .signup-form button[type="submit"]{
     display: block;
     margin-top: 1rem;;
