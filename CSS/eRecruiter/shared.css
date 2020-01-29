@@ -10,6 +10,9 @@ body{
     /*background: #74A6D8;*/
     background: #fa923f;
     font-family: 'Slabo 27px', serif;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .main-nav__left{

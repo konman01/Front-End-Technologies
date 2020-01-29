@@ -1,0 +1,43 @@
+#customer-1{
+    margin-top: 5rem;
+}
+
+.testimonial{
+    margin-bottom: 2rem;
+}
+.testimonial__image-container{
+    display: inline-block;
+    width: 50%;
+}
+
+.testimonial__image{
+    width: 100%;
+}
+
+.testimonial__info{
+
+    display: inline-block;
+    width: 40%;
+    margin: 2rem;
+    text-align: start;
+    vertical-align: top;
+}
+
+.testimonial__name{
+    color: #009999;
+    font-weight: bold;
+}
+
+
+.testimonial__subtitle{
+    color: #ccc;
+}
+
+.testimonial__subtitle a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.testimonial__text{
+    font-size: 1.2rem;
+}
