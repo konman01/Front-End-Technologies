@@ -45,7 +45,7 @@
 }
 
 .role--sub{
-    color:  black;
+    color:  #2D64B6;
     font-weight: bold;
 }
 
@@ -57,7 +57,7 @@
 
 .role__feature{
     list-style: none;
-    color:  black;
+    color:  #2D64B6;
     padding: 0.2rem;
 }
 

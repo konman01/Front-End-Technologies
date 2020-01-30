@@ -1,0 +1,53 @@
+.signup-page{
+    margin: 5rem;
+}
+
+
+.signup-form{
+    width: 25rem;
+    margin: auto;
+}
+
+
+.signup-title{
+    text-align: center;
+    color: #009999;
+    margin: 0;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select{
+    display: block;
+    width: 100%;
+    margin: 2rem 0rem;
+}
+
+.signup-form input,
+.signup-form select{
+    border: 1px solid #ccc;
+    padding: 0.2rem 0.5rem;
+    width: 100%;
+    text-align: left;
+}
+
+.signup-form input:focus,
+.signup-title select:focus{
+    outline: none;
+    background-color: #d8f3df;
+    border-color: #2ddf5c;
+}
+
+.signup-form .button{
+    padding: 0.8rem 2rem;
+    background-color: #009999;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+.button:focus{
+    outline: none;
+}
