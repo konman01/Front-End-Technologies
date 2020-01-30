@@ -51,3 +51,7 @@
 .button:focus{
     outline: none;
 }
+
+#already-have{
+    text-align: center;
+}
